@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal web page</title>
+</head>
+<body>
+    <header>
+        <img src="./img/temp.png" alt="hold">
+        <nav>
+           <a href="#Hero">Home</a>
+            <a href="#About">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id ="Hero">
+            <h1>Welcome!</h1>
+            <h2>Hi, my name is Guadalupe Romero (Lupe)</h2>
+            <p>I'm a fellow at <a href="https://www.marcylabschool.org">Marcy Lab School</a> learning to be a upstanding Software Engineer.</p>
+        </section>
+        <section id ="About">
+            <h1>About Me!</h1>
+            <div id = "info">
+                <p>Hi! I’m a Fellow at the Marcy Lab School, where I’m learning to become a software engineer and building the technical and problem-solving skills needed to create meaningful, real-world solutions.<br>
+                I’m naturally curious and driven by growth, so outside of coding I’m always exploring new skills and creative outlets. I enjoy knitting, drawing, reading, and playing video games—activities that help me think creatively, stay patient, and approach challenges from different perspectives.<br>
+                I’m passionate about learning, improving, and using technology as a tool for impact. Whether I’m debugging code or picking up a new hobby, I’m always excited to grow and push my abilities further.
+                </p>
+                <div id ="skillBox">
+                    <h2>Skills:</h2>
+                    <ul id = skills>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Node.js</li>
+                        <li>Git</li>
+                        <li>SQL</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id ="Projects">
+            <h1>My Projects!</h1>
+            <div id ="projectGrid">
+                <div class="project">
+                    <img src="./img/webpage.png" alt="webpage">
+                    <p>For this solo project, I built a personal portfolio website from scratch using HTML and CSS. The site showcases my skills, projects, and personality while giving me hands-on experience with responsive design and real-world web development. Through this project, I strengthened my understanding of layout, styling, and problem-solving, and created a portfolio I can continue to grow as I advance in my career.</p>
+                    <div class="links">
+                        <a href="#Hero">Live Link</a>
+                        <a href="https://github.com/gjromero6906/GuadalupeRomero.github.io">GitHub</a>
+                    </div>  
+                </div>
+                <div class="project">
+                    <img src="./img/blackJack.png" alt="blackJack">
+                    <p>For this solo project, I built a command-line Blackjack game using JavaScript, applying object-oriented programming with classes and synchronous prompts for user interaction. The game simulates real Blackjack logic, including dealing cards, calculating scores, and handling player decisions. This project helped me deepen my understanding of classes, game state management, and control flow while building a fully interactive experience</p>
+                    <div class="links">
+                        <a href="#">Live Link</a>
+                        <a href="https://github.com/gjromero6906/BlackJack">Github</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id ="Contact">
+            <h1>Ways to reach me!</h1>
+            <form action="https://formspree.io/f/xaqovkjy" method="post">
+                <div class="input-row">
+                    <div class="enterInfo">
+                        <label for = "name">Name</label>
+                        <input type="text"  id = "name" name="name"/>
+                    </div>
+                    <div class="enterInfo">
+                        <label for = "email">Email</label>
+                        <input type="email" id = "email" name="email"/>
+                    </div>
+                </div>
+                <div id = "message">
+                    <label for="notes">Special Requests or Notes</label>
+                    <textarea 
+                        id="notes",
+                        rows="5", 
+                        cols="40", 
+                        placeholder="Your message...",
+                        name="notes"></textarea>
+                </div>
+                <button type="submit">Send Message &#8594 </button>
+            </form>
+            <div id ="contentInfo">
+                <div id = "infoBlock">
+                    <ul>
+                        <li><a href="https://github.com/gjromero6906">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/guadalupe-romero6906/">LinkedIn</a></li>
+                        <li><a href="mailto:gjr6906@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Designed & Built by Guadalupe Romero</h3>
+        <p>© 2026 All rights reserved.</p>
+    </footer>
+</body>
+</html>
