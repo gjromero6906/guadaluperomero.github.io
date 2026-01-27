@@ -85,13 +85,12 @@ section{
   align-items: center;
 }
 #info p{
-  max-width: 75%;
-  padding-right: 20px;
-  padding: 15px 20px;
   font-size: 18px;
+  padding-right: 10px;
 }
 #skillBox{
   padding-left: 50px;
+  padding-right: 10px;
   border-left: 5px solid var(--color-text);
 }
 #skillBox #skills{
@@ -109,7 +108,8 @@ section{
   font-size: 18px;
 }
 #skillBox li:hover{
-  color: cadetblue;
+  color:var(--color-second);
+  border:5px solid var(--color-text);
 }
 #Projects{
   background-color: var(--color-background);
@@ -149,8 +149,19 @@ section{
 }
 .links{
   display: flex;
- gap: 20px;
+  gap: 20px;
   justify-content: center;
+}
+.links a{
+  background-color: #004245;
+  text-decoration: none;
+  color: var(--color-text);
+  border-radius: 50%;
+  padding: 10px;
+}
+.links a:hover{
+  color:var(--color-second);
+  border:5px solid var(--color-text);
 }
 
 #Contact{
@@ -164,11 +175,12 @@ section{
   color: var(--color-button);
 }
 form{
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  max-width: 95%;
-  max-height: 95%;
-
+  background-color: aliceblue;
+  border-radius: 15%;
+  padding: 3%;
 }
 .enterInfo{
   flex: 1;
@@ -199,10 +211,14 @@ input{
 textarea{
   padding: 20px;
 }
+
 #infoBlock ul{
   display: flex;
   justify-self: center;
   gap: 30px;
+}
+#infoBlock{
+  padding-top: 20px;
 }
 #infoBlock li a{
   display: inline;
@@ -217,12 +233,22 @@ textarea{
   padding: 15px 20px;
   font-size: 18px;
 }
-button{
-  padding: 20px;
-  margin-bottom: 30px;
+button {
+  display: block;
+  padding: 30px;
+  margin: 0 auto 30px auto;
   background-color: var(--color-button);
   color: var(--color-text);
   border-radius: 60%;
+  width: fit-content;
+}
+#infoBlock li a:hover{
+  color:var(--color-second);
+  border:5px solid var(--color-text);
+}
+button:hover{
+  color:var(--color-second);
+  border:5px solid var(--color-background);
 }
 footer{
   background-color: var(--color-background);
@@ -236,6 +262,10 @@ footer{
   .project img:hover {
   transform: scale(1.05);
   }
+  #info p{
+  font-size: 30px;
+  padding-right: 10px;
+}
 }
 
 /* Desktops */
@@ -246,4 +276,8 @@ footer{
   .project img:hover {
   transform: scale(1.05);
   }
+  #info p{
+  font-size: 32px;
+  padding-right: 10px;
+}
 }
