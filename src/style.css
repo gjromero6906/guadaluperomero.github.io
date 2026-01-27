@@ -53,6 +53,7 @@ nav>a:hover{
   text-decoration-color: var(--color-text);
   text-decoration:underline;
   font-size: 32px;
+  transition: transform 0.3s ease;
 }
 section{
   display: block;
@@ -110,6 +111,7 @@ section{
 #skillBox li:hover{
   color:var(--color-second);
   border:5px solid var(--color-text);
+  transition: transform 0.3s ease;
 }
 #Projects{
   background-color: var(--color-background);
@@ -166,6 +168,7 @@ section{
 .links a:hover{
   color:var(--color-second);
   border:5px solid var(--color-text);
+  transition: transform 0.3s ease;
 }
 
 #Contact{
@@ -249,10 +252,12 @@ button {
 #infoBlock li a:hover{
   color:var(--color-second);
   border:5px solid var(--color-text);
+  transition: transform 0.3s ease;
 }
 button:hover{
   color:var(--color-second);
   border:5px solid var(--color-background);
+  transition: transform 0.3s ease;
 }
 footer{
   background-color: var(--color-background);
