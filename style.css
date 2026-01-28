@@ -46,14 +46,8 @@ nav{
 nav >a{
   color: var(--color-text);
   text-decoration: none;
-  font-size:10px;
+  font-size:8px;
   line-height: 2;
-}
-nav>a:hover{
-  text-decoration-color: var(--color-text);
-  text-decoration:underline;
-  font-size: 32px;
-  transition: transform 0.3s ease;
 }
 section{
   display: block;
@@ -278,6 +272,12 @@ footer{
   nav >a{
     font-size: 20px;
   }
+  nav>a:hover{
+  text-decoration-color: var(--color-text);
+  text-decoration:underline;
+  font-size: 32px;
+  transition: transform 0.3s ease;
+  }
 }
 
 /* Desktops */
@@ -294,5 +294,11 @@ footer{
   }
   nav >a{
     font-size: 35px;
+  }
+  nav>a:hover{
+  text-decoration-color: var(--color-text);
+  text-decoration:underline;
+  font-size: 32px;
+  transition: transform 0.3s ease;
   }
 }
