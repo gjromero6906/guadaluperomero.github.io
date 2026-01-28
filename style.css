@@ -46,7 +46,7 @@ nav{
 nav >a{
   color: var(--color-text);
   text-decoration: none;
-  font-size:25px;
+  font-size:10px;
   line-height: 2;
 }
 nav>a:hover{
@@ -274,7 +274,10 @@ footer{
   #info p{
   font-size: 30px;
   padding-right: 10px;
-}
+  }
+  nav >a{
+    font-size: 20px;
+  }
 }
 
 /* Desktops */
@@ -288,5 +291,8 @@ footer{
   #info p{
   font-size: 32px;
   padding-right: 10px;
-}
+  }
+  nav >a{
+    font-size: 35px;
+  }
 }
